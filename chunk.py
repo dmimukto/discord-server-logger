@@ -147,5 +147,5 @@ async def on_message(message):
   
   
   
-  # And remember to add this final statement below, if you have both client.command commands and client.event commands in your bot's soul.
+  # And remember to add this final statement below, if you have both client.command() commands and client.event() commands in your bot's soul.
   await client.process_commands(message)
